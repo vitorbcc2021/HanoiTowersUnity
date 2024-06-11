@@ -55,6 +55,12 @@
 # Specify language for GitHub Linguist
 *.cs linguist-language=C#
 *.shader linguist-language=ShaderLab
-*.cginc linguist-language=ShaderLab
 *.compute linguist-language=ShaderLab
+*.cginc linguist-language=ShaderLab
 *.hlsl linguist-language=ShaderLab
+
+# Ignore ShaderLab files for language statistics
+*.shader linguist-detectable=false
+*.compute linguist-detectable=false
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
