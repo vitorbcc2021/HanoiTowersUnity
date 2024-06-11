@@ -1,0 +1,6 @@
+# Specify language for GitHub Linguist
+*.cs linguist-language=C#
+*.shader linguist-language=ShaderLab
+*.compute linguist-language=ShaderLab
+*.cginc linguist-language=ShaderLab
+*.hlsl linguist-language=ShaderLab
